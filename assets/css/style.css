@@ -106,6 +106,10 @@ h6 {
   max-height: 40px;
 }
 
+.logo img {
+  max-height: auto;
+}
+
 @media (max-width: 992px) {
   #header {
     padding: 12px 0;
@@ -569,6 +573,10 @@ section {
   transition: 0.3s;
   -webkit-filter: grayscale(100);
   filter: grayscale(100);
+}
+
+.estimate-btn img {
+  width: 40%;
 }
 
 .clients .owl-item img:hover {
