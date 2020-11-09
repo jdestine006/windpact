@@ -113,22 +113,21 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6">
-            <form action="assets/forms/contact.php" method="post">
-  <div class="elem-group">
-    <label for="name">Your Name</label>
-    <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
-  </div>
-  <div class="elem-group">
-    <label for="email">Your E-mail</label>
-    <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
-  </div>
-  <div class="elem-group">
-    <label for="message">Write your message</label>
-    <textarea id="message" name="visitor_message" placeholder="Say whatever you want." required></textarea>
-  </div>
-  <button type="submit">Send Message</button>
-</form>
+          <div class="col-md-6">
+            <form>
+        Full Name: <br>
+        <input type="text" name="name">
+        <br>
+        <br>
+        Email Address: <br>
+        <input type="text" name="email">
+        <br>
+        <br>
+        Message: <br>
+        <textarea name="message" rows="20" cols="60"> </textarea>
+        <br>
+        <input type="submit" value="Submit" class="button" onclick="alert('Thank you for sharing!')">
+      </form>
           </div>
         </div>
       </div>
