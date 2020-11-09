@@ -107,7 +107,7 @@ h6 {
 }
 
 .logo img {
-  max-height: auto;
+  max-height: 60%;
 }
 
 @media (max-width: 992px) {
@@ -1425,6 +1425,48 @@ section {
 
 .contact .php-email-form button[type='submit']:hover {
   background: #e35052;
+}
+
+div.elem-group {
+  margin: 40px 0;
+}
+
+label {
+  display: block;
+  font-family: 'Aleo';
+  padding-bottom: 4px;
+  font-size: 1.25em;
+}
+
+input,
+select,
+textarea {
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Aleo';
+  width: 500px;
+  padding: 8px;
+}
+
+textarea {
+  height: 250px;
+}
+
+button {
+  height: 50px;
+  background: green;
+  color: white;
+  border: 2px solid darkgreen;
+  font-size: 1.25em;
+  font-family: 'Aleo';
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid black;
 }
 
 @-webkit-keyframes animate-loading {
