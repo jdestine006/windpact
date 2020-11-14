@@ -65,14 +65,10 @@ h6 {
 .carousel-item {
   height: 65vh;
   min-height: 600px;
-  background: rgba(73, 73, 73, 0.5);
+  background-color: #fff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-}
-.carousel-item img {
-  opacity: 0.9;
 }
 
 /*--------------------------------------------------------------
