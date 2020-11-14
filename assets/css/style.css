@@ -97,6 +97,15 @@ h6 {
   }
 }
 
+@media screen and (min-width: 600px) and (max-width: 1170px) {
+  .carousel-item {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
