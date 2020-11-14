@@ -64,8 +64,8 @@ h6 {
 
 .carousel-item {
   height: 65vh;
-  min-height: 720px;
-  background: no-repeat center center scroll;
+  min-height: 600px;
+  background: rgba(73, 73, 73, 0.5);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -81,6 +81,19 @@ h6 {
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    align-items: center;
+    text-align: center;
   }
 }
 
@@ -117,7 +130,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 100px;
+  max-height: 65px;
 }
 
 .logo-img {
