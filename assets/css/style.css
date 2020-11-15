@@ -65,10 +65,17 @@ h6 {
 .carousel-item {
   height: 65vh;
   min-height: 600px;
+  min-width: 480px;
+  align-content: center;
   background-color: #fff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+}
+
+.carousel-item img {
+  min-width: 480px;
+  height: auto;
 }
 
 /*--------------------------------------------------------------
