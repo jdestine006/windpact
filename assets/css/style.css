@@ -854,6 +854,13 @@ section {
   max-width: 100%;
   position: center;
 }
+.col-lg-7 img {
+  -ms-flex: 0 00;
+  flex: 0 0 0;
+  max-width: 100%;
+  position: center;
+  margin-left: 235px;
+}
 
 .about .content {
   padding: 30px 30px 30px 0;
