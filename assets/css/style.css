@@ -218,7 +218,7 @@ h6 {
 .nav-menu .phone {
   font-size: 30px;
   font-weight: 600;
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .nav-menu .drop-down ul {
@@ -879,7 +879,7 @@ section {
   font-size: 13px;
   display: inline-flex;
   align-items: center;
-  border: 2px solid #e03a3c;
+  border: 2px solid #c90000;
 }
 
 .about .content .about-btn i {
@@ -887,9 +887,9 @@ section {
   padding-left: 5px;
 }
 
-.about .content .about-btn:hover {
-  background: #e35052;
-  background: #e03a3c;
+.about .content .about-btn {
+  background: #c90000;
+  background: #c90000;
 }
 
 .about .icon-boxes .icon-box {
@@ -898,7 +898,7 @@ section {
 
 .about .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #e03a3c;
+  color: #c90000;
   margin-bottom: 10px;
 }
 
