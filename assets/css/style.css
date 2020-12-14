@@ -74,7 +74,7 @@ h6 {
 }
 
 .carousel-item img {
-  min-width: 480px;
+  min-width: auto;
   height: auto;
 }
 
@@ -788,7 +788,10 @@ section {
   -webkit-filter: none;
   filter: none;
 }
-
+.responsive {
+  min-width: 20%;
+  height: auto;
+}
 .resp-container {
   position: relative;
   overflow: hidden;
