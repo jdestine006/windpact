@@ -483,14 +483,6 @@ h6 {
   font-weight: 500;
   outline: none;
 }
-.mobile-nav .phone a {
-  display: block;
-  position: relative;
-  color: #c90000;
-  padding: 10px 20px;
-  font-weight: 500;
-  outline: none;
-}
 
 .mobile-nav a:hover,
 .mobile-nav .active > a,
