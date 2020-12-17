@@ -217,8 +217,8 @@ h6 {
 }
 
 .nav-menu .phone {
-  font-size: 50px;
-  font-weight: 00;
+  font-size: 90px;
+  font-weight: 600px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -416,9 +416,13 @@ h6 {
   padding: 8px 25px;
   white-space: nowrap;
   transition: 0.3s;
+
+  display: inline-block;
+}
+.get-started-btn a {
+  color: #fff;
   font-size: 14px;
   font-weight: 600;
-  display: inline-block;
 }
 
 .get-started-btn:hover {
@@ -813,6 +817,9 @@ section {
   border: 0;
 }
 
+.estimate-btn {
+  width: 40%;
+}
 .estimate-btn img {
   width: 40%;
 }
