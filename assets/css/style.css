@@ -217,9 +217,10 @@ h6 {
 }
 
 .nav-menu .phone {
-  font-size: 90px;
-  font-weight: 600px;
+  font-size: 20px;
+  font-weight: bolder;
   font-family: 'Roboto', sans-serif;
+  color: #c90000;
 }
 
 .nav-menu .drop-down ul {
@@ -416,17 +417,11 @@ h6 {
   padding: 8px 25px;
   white-space: nowrap;
   transition: 0.3s;
-
+  font-size: 14px;
+  font-weight: 600;
   display: inline-block;
 }
 .get-started-btn a {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.get-started-btn:hover {
-  background: #1d0d9c;
   color: #fff;
 }
 
