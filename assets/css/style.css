@@ -209,12 +209,13 @@ h6 {
   font-weight: 600;
   font-family: 'Helvetica', sans-serif;
 }
-
+/*
 .nav-menu a:hover,
 .nav-menu .active > a,
 .nav-menu li:hover > a {
-  color: #e03a3c;
+  color: #fff;
 }
+*/
 
 .nav-menu .phone {
   font-size: 20px;
@@ -478,6 +479,14 @@ h6 {
   display: block;
   position: relative;
   color: #111111;
+  padding: 10px 20px;
+  font-weight: 500;
+  outline: none;
+}
+.mobile-nav .phone a {
+  display: block;
+  position: relative;
+  color: #c90000;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
