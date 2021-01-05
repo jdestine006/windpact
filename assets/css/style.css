@@ -62,6 +62,20 @@ h6 {
   color: #000;
 }
 
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.columns {
+  float: center;
+  width: 33.33%;
+  padding-left: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
 .carousel-item {
   height: 65vh;
   min-height: 600px;
@@ -166,9 +180,30 @@ h6 {
 
 #header .logo-img {
   float: right;
+  background: none;
   position: relative;
   margin: 0;
   margin-bottom: 0px;
+  padding-left: 25px;
+}
+.logo-img :hover {
+  float: right;
+  background: red;
+  position: relative;
+  margin: 0;
+  margin-bottom: 0px;
+  padding-left: 25px;
+}
+
+#header .icon-box {
+  border-radius: 6px;
+  background: none;
+  transition: 0.3s;
+}
+
+#header .icon-box:hover {
+  background: #c90000;
+  color: #fff;
 }
 
 @media (max-width: 992px) {
@@ -198,6 +233,7 @@ h6 {
   position: relative;
   white-space: nowrap;
   padding: 10px 0 10px 28px;
+  font-size: 20px;
 }
 
 .nav-menu a {
@@ -205,7 +241,7 @@ h6 {
   position: relative;
   color: #000;
   transition: 0.3s;
-  font-size: 15px;
+  font-size: 25px;
   font-weight: 600;
   font-family: 'Helvetica', sans-serif;
 }
@@ -220,6 +256,7 @@ h6 {
 .nav-menu .phone {
   font-size: 20px;
   font-weight: bolder;
+  position: relative;
   font-family: 'Roboto', sans-serif;
   color: #c90000;
 }
