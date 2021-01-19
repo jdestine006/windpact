@@ -77,10 +77,10 @@ h6 {
 }
 
 .carousel-item {
-  height: 40vh;
+  height: 39vh;
   min-width: auto;
   text-align: center;
-  margin-top: 5.5rem;
+  margin-top: 5.2rem;
   justify-content: center;
   background-color: #fff;
   -webkit-background-size: cover;
