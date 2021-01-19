@@ -79,6 +79,7 @@ h6 {
 .carousel-item {
   height: 39vh;
   min-width: auto;
+  max-width: auto;
   text-align: center;
   margin-top: 5.2rem;
   justify-content: center;
