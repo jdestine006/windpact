@@ -93,11 +93,8 @@ h6 {
   height: 39vh;
   align-content: center;
   justify-content: center;
-  padding-top: 0rem;
+  padding-top: 0.25rem;
   padding-bottom: 5.5rem;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
 }
 
 .video-container {
