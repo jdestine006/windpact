@@ -93,7 +93,8 @@ h6 {
   height: 39vh;
   align-content: center;
   justify-content: center;
-  padding-bottom: 0%;
+  padding-top: 0rem;
+  padding-bottom: 5.5rem;
 }
 
 .video-container {
@@ -683,7 +684,7 @@ form {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 100px 0;
+  padding: px 0;
   overflow: hidden;
   position: relative;
 }
