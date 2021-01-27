@@ -849,7 +849,6 @@ section {
 .resp-container-2 {
   position: relative;
   min-width: auto;
-  height: 100vh;
   align-content: center;
   overflow: hidden;
   padding-top: 0%;
