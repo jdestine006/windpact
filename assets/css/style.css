@@ -76,12 +76,12 @@ h6 {
   display: table;
 }
 
-.carousel-item {
+.carousel-inner {
   height: auto;
   min-width: auto;
   text-align: center;
   position: relative;
-  margin-top: 5.2rem;
+  margin-top: 5.5rem;
   overflow: hidden;
   justify-content: center;
   background-color: #fff;
